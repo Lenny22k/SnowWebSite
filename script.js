@@ -67,7 +67,7 @@ gsap.from('.home-title', 1.2, { opacity: 0, x: -60, delay: 1 })
 const sr = ScrollReveal({
   origin: 'top',
   distance: '60px',
-  duration: 2500,
+  duration: 1900,
   delay: 200
 })
 

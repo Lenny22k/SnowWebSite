@@ -367,7 +367,7 @@ h2 {
 
 .button {
   display: inline-block;
-  background-color: hsl(210, 80%, 54%);
+  background-color: #ee1010;
   padding: 1rem 2rem;
   border-radius: 4rem;
   color: #fff;
@@ -376,8 +376,8 @@ h2 {
 }
 
 .button:hover {
-  background-color: hsl(210, 80%, 50%);
-  box-shadow: 0 8px 32px hsla(210, 80%, 54%, 0.7);
+  background-color: #df1010;
+  box-shadow: 0 8px 32px #ee1010;
   color: #000;
 }
 
@@ -396,6 +396,11 @@ h2 {
 .send-img {
   width: 180px;
   margin-bottom: 0.75rem;
+  transition: 0.2s;
+}
+
+.send-img:hover {
+  transform: scale(1.1);
 }
 
 .send-title {
@@ -524,6 +529,10 @@ h2 {
   top: 6.5rem;
   right: 0rem;
   animation: animate-snow-2 5s infinite ease-in-out;
+}
+
+.footer .instagram:hover {
+  color: rgb(248, 0, 83);
 }
 
 .scrollup {
